@@ -5,15 +5,15 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Website</title>
 	</head>
-	<body>
-		<nav>
+	<body style="text-align: center">
+		<nav">
 			<ul>
 				<li><a href="#">Home</a></li>
 				<li><a href="#">About</a></li>
 				<li><a href="#">Contact</a></li>
 			</ul>
 		</nav>
-		<div
+		<section
 			style="
 				background-image: url('https://static-cse.canva.com/blob/1145215/1.magebyRodionKutsaevviaUnsplash.jpg');
 				background-size: cover;
@@ -24,34 +24,107 @@
 				height: 500px;
 			">
 			<h1>Back to it Buddy!</h1>
-		</div>
-		<h1>Welcome to Our Website</h1>
-		<form
-			id="form"
-			style="display: flex; flex-direction: column; width: 50%; column-gap: 1em"
-			onsubmit="showMessage()">
-			<label for="name">Name</label>
-			<input type="text" id="name" name="name" placeholder="John Doe" />
-			<label for="email">Email</label>
-			<input
-				type="Email"
-				id="email"
-				name="email"
-				placeholder="jdoe@johndoe.com" />
-			<label for="message">Message</label>
-			<textarea
-				id="message"
-				name="message"
-				placeholder="I got a secret to tell you and it is juiceeeeeeee!"></textarea>
-			<button
-				style="padding: 5px; background-color: green; color: white; width: auto"
-				type="button"
-				onclick="alert('I submitted your message, believe me! 😉')">
-				Submit
-			</button>
-		</form>
-		<footer>
-			<p>&copy; 2025 My Website</p>
-		</footer>
+		</section>
+		<h1 style="padding-bottom: 20px; padding-top: 10px">
+			Welcome to Our Website
+		</h1>
+		<section style="width: 90%; margin: 0 auto">
+			<h2 style="padding-bottom: 20px; padding-top: 10px">
+				Customer Testimonials
+			</h2>
+			<blockquote style="padding: 10px">
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias nam
+					tenetur velit maxime vitae, enim, quod nihil ad mollitia inventore
+					accusamus autem voluptate ipsum ipsam veritatis dicta placeat totam
+					labore.
+					<span
+						style="
+							font-weight: bold;
+							font-style: italic;
+							display: block;
+							padding-top: 10px;
+						"
+						>By Lorem Ipsum</span
+					>
+				</p>
+			</blockquote>
+			<hr />
+			<blockquote style="padding: 10px">
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias nam
+					tenetur velit maxime vitae, enim, quod nihil ad mollitia inventore
+					accusamus autem voluptate ipsum ipsam veritatis dicta placeat totam
+					labore.
+					<span
+						style="
+							font-weight: bold;
+							font-style: italic;
+							display: block;
+							padding-top: 10px;
+						"
+						>By Lorem Ipsum</span
+					>
+				</p>
+			</blockquote>
+			<hr />
+			<blockquote style="padding: 10px">
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias nam
+					tenetur velit maxime vitae, enim, quod nihil ad mollitia inventore
+					accusamus autem voluptate ipsum ipsam veritatis dicta placeat totam
+					labore.
+					<span
+						style="
+							font-weight: bold;
+							font-style: italic;
+							display: block;
+							padding-top: 10px;
+						"
+						>By Lorem Ipsum</span
+					>
+				</p>
+			</blockquote>
+		</section>
+		<section>
+			<form
+				id="form"
+				style="
+					display: flex;
+					flex-direction: column;
+					width: 50%;
+					margin: 0 auto;
+					column-gap: 1em;
+				"
+				onsubmit="showMessage()">
+				<label style="text-align: left" for="name">Name</label>
+				<input type="text" id="name" name="name" placeholder="John Doe" />
+				<label style="text-align: left" for="email">Email</label>
+				<input
+					type="Email"
+					id="email"
+					name="email"
+					placeholder="jdoe@johndoe.com" />
+				<label style="text-align: left" for="message">Message</label>
+				<textarea
+					id="message"
+					name="message"
+					placeholder="I got a secret to tell you and it is juiceeeeeeee!"></textarea>
+				<button
+					style="
+						padding: 5px;
+						background-color: green;
+						color: white;
+						width: auto;
+					"
+					type="button"
+					onclick="alert('I submitted your message, believe me! 😉')">
+					Submit
+				</button>
+			</form>
+			<footer>
+				<p>&copy; 2025 My Website</p>
+			</footer>
+		</section>
 	</body>
 </html>
