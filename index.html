@@ -26,6 +26,30 @@
 			<h1>Back to it Buddy!</h1>
 		</div>
 		<h1>Welcome to Our Website</h1>
+		<form
+			id="form"
+			style="display: flex; flex-direction: column; width: 50%; column-gap: 1em"
+			onsubmit="showMessage()">
+			<label for="name">Name</label>
+			<input type="text" id="name" name="name" placeholder="John Doe" />
+			<label for="email">Email</label>
+			<input
+				type="Email"
+				id="email"
+				name="email"
+				placeholder="jdoe@johndoe.com" />
+			<label for="message">Message</label>
+			<textarea
+				id="message"
+				name="message"
+				placeholder="I got a secret to tell you and it is juiceeeeeeee!"></textarea>
+			<button
+				style="padding: 5px; background-color: green; color: white; width: auto"
+				type="button"
+				onclick="alert('I submitted your message, believe me! 😉')">
+				Submit
+			</button>
+		</form>
 		<footer>
 			<p>&copy; 2025 My Website</p>
 		</footer>
